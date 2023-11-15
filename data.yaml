@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['boundaries']
+
+roboflow:
+  workspace: greysquare
+  project: boundaries-ld1o8
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/greysquare/boundaries-ld1o8/dataset/5
