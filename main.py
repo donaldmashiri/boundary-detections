@@ -64,4 +64,5 @@ geojson_path = os.path.join(output_dir, "results.geojson")
 with open(geojson_path, 'w') as f:
     json.dump(feature_collection, f)
 
+
 print("Sketch map, image with road boundaries, and results.geojson saved successfully.")
